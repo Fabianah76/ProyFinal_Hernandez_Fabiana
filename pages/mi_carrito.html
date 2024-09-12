@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/images/logohilados.ico" type="image/x-icon">
+    <title>Mi carrito - Tienda de hilados online</title>
+</head>
+<body>
+    <header class="container-fluid h-20"> 
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-1 d-flex justify-content-start mt-2 ms-2">
+                <img src="../assets/images/logohilados.png" alt="Logo de la tienda dos manos sosteniendo una madeja de lana rustica" class="img-fluid">
+            </div>
+            <div class="col-lg-4 mt-2 justify-content-center">
+                <h4>Tejemos - Tienda de hilados online</h4> 
+            </div>
+            <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                <nav>           
+                    <ul class="d-flex justify-content-end align-items-center">
+                        <li class="btn btn-light m-1"><a href="../index.html">Home</a></li>
+                        <li class="btn btn-light m-1"><a href="../pages/nosotros.html">Nosotros</a></li>
+                        <li class="btn btn-light m-1"><a href="../pages/tienda.html">Tienda</a></li>
+                        <li class="btn btn-light m-1"><a href="../pages/contacto.html">Contacto</a></li>
+                        <!-- <li class="btn btn-light m-1"><a href="../pages/mi_carrito.html">Mi carrito</a></li> -->
+                    </ul> 
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid h-60 d-flex flex-column justify-content-center align-items-center">
+                                     
+        <div class="row col-10 mt-4">
+            <!-- Encabezado del Carrito -->
+            <div class="row justify-content-center text-center align-items-center">
+                <div class="col-12 ms-4">
+                    <h1>Mi carrito<img src="../assets/images/logocarrito.png" alt="Carrito" class="cart-image my-3"></h1> 
+                </div>
+            </div>
+            
+            <!-- Tabla del Carrito -->
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Item</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Acción</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="items">
+                            <!-- Aquí se agregarán dinámicamente los items del carrito -->
+                        </tbody>
+                        <tfoot>
+                            <tr id="footer">
+                                <th scope="row" colspan="5" class="text-center">Carrito vacío - comience a comprar!</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+    
+            <!-- Cards de Productos (opcional) -->
+            <div class="row" id="cards">
+                <!-- Aquí se agregarán dinámicamente las tarjetas de productos -->
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="container-fluid h-20">
+        <div class="row">
+            <div class="col-12 col-md-3 d-flex justify-content-start mt-2">
+                <img src="../assets/images/logohilados.png" alt="Logo de la tienda dos manos sosteniendo una madeja de lana rustica" class="img-fluid">
+            </div>
+            
+            <div class="col-12 col-md-3 mt-2">
+                <h5>Contactanos: </h5>
+                <p>+598 92 876 678</p>
+                <p>tejemos@tiendadehilados.com</p>                   
+            </div>
+            
+            <div class="col-12 col-md-3 mt-2">
+                <p>Canelones 2244</p>
+                <p>Montevideo, Uruguay</p>
+                <p>CP 11200</p>                   
+            </div>
+            
+            <div class="col-12 col-md-3 mt-2">
+                <h5>Encontranos en: </h5>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./script/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
