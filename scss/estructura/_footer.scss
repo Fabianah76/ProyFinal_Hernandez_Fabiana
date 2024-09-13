@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    background-color:$bg-headerfooter;
+    color:$font-colorheaderfooter ;
+    padding: 20px 0;
+}
+footer .row{
+    width: 100%;
+}
+
+footer img {
+    max-height: 120px;
+    }
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: $font-colorheaderfooter;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

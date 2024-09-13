@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: $bg-headerfooter;
+}
+
+header .row {
+    width: 100%;
+}
+
+header img {
+    max-height: 120px;
+}
+
+header h4 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: $font-colorheaderfooter;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #f8f9fa; /* Color de fondo al pasar el ratón */
+    color: $font-colorheaderfooter;
+}
