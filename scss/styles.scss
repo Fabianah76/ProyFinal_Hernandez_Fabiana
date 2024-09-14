@@ -4,11 +4,9 @@
 @import "./estructura/header";
 @import "./estructura/main"; 
 @import "./estructura/footer";
-@import "./pages/mainhome";
 @import "./pages/mainnosotras";
 @import "./pages/maintienda"; 
-@import "./pages/maincontacto";
-@import "./pages/maincarrito";
+
 
 @media (max-width: 768px) {
     header nav ul {
